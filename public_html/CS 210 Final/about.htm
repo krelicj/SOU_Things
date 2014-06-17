@@ -1,0 +1,106 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+<head>
+<title>About</title>
+<link rel="stylesheet" type="text/css" href="final.css" media="screen" title="Default" />
+<script src="spam.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+      function showEM(userName, emServer) {
+	     /*
+		    The showEM() function displays a link to the user's e-mail address.
+			The text of the user and e-mail server names are entered in
+			reverse order to thwart e-mail harvesters.
+		 */
+	  
+	     userName = stringReverse(userName); // reverse the text of the userName parameter
+		 emServer = stringReverse(emServer); // reverse the text of the emServer parameter
+		 
+	     var emLink = userName + "@" + emServer; // combine the text of userName and emServer
+		 document.write("<a href='mailto:" + emLink + "'>");
+		 document.write(emLink);
+		 document.write("</a>");
+      }
+   </script>
+</head>
+
+<body onUnload="tidy()">
+<div id="container">
+   <div id="topContainer">
+    <div id="topLeft" class="dialog">
+     <div class="hd"><div class="c"></div></div>
+     <div class="bd">
+      <div class="c">
+       <div class="s">
+	<ul>
+	   <li><a href="archive.htm">Archive</a><br /></li>
+       <li><a href="http://jaredkrelic.blogspot.com/" target="_blank">News/Blog</a><br /></li>
+	   <li><a href="about.htm">About</a><br /></li>
+	   <li><a href="http://www.youtube.com/user/krejar" target="_blank">YouTube</a><br /></li>
+	   <li><a href="http://twitter.com/#!/krejar" target="_blank">Twitter</a><br /></li>
+    </ul>
+       </div>
+      </div>
+     </div>
+	 <div class="ft"><div class="c"></div></div>
+    </div>
+    <div id="topRight" class="dialog">
+     <div class="hd"><div class="c"></div></div>
+     <div class="bd">
+      <div class="c">
+       <div class="s">
+        <div id="topRightContainer">
+         <div id="logo">
+          <a href="final.htm"><img src="pictures/neptune.png" alt="netptune logo" height="83" width="185"/></a>
+          <h2><br /><br /><br /><br />A webcomic of rudeness, hunger and sleepiness.</h2>
+          <div class="clearleft"></div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="ft"><div class="c"></div></div>
+    </div>
+   </div>
+    <div id="contentContainer">
+    <div id="middleContent" class="dialog">
+     <div class="hd"><div class="c"></div></div>
+     <div class="bd">
+      <div class="c">
+       <div class="s">
+<h1>Contact Information</h1>
+<br />
+<br />School E-Mail:&nbsp;&nbsp;
+<script type="text/javascript">
+			   showEM("jcilerk","ude.uos");
+			</script>
+<br />Personal E-Mail:&nbsp;&nbsp;
+<script type="text/javascript">
+			   showEM("rajerk","moc.liamg");
+			</script>
+<br />
+<br />
+<h1>Who Am I?</h1>
+<br />
+<br />My name is Jared Krelic.  I was born and raised in Phoenix, Arizona.  Upon graduation of High School, I enlisted
+in the United States Navy and proudly served for 6 1/2 years.  After an honorable discharge, I found work with General
+Dynamics testing space gps systems and tent ground base mobile operations systems for the government.  3 years later, I
+have found myself up in Ashland, Oregon studying at Southern Oregon University.  I am currently persuing a degree in
+Computer Science and Multimedia.  My minor is Emerging Media Digital Arts.  My ultimate goal is to work for a large scale
+production company like Dreamworks or Pixar.  I am even toying with the idea of video game development/art.
+<br />
+<br />
+<h1>My Inspiration</h1>
+<br />
+<br />I have a grey Korat cat named Neptune.  He is an asshole.  Literally!  All the little bastard does is sleep, eat, poop, scratch and chew my things up.  The worst part about him is his constant meowing.  He can never get enough food to eat.  His brother, Zeus, is nicknamed Jabba the Hutt.  He's weight is the equivalent of a pregnant dinosaur.  So, when it comes time for "The Feeding", Neptune and Zeus both roll down the stairs and find a way to jump up to the food dish and start to maow down on some grub.  Neptune IS a backhoe.  He will dig his face into the food, grab 2 or 3 scoops of food, bring his head to the side, dump the food out and eat it in a different spot than the dish.  Meanwhile, Zeus is taking 2 or 3 pieces of kibble at a time all the while watching out for Neptune to make his next dive into the dish. 
+<div id="transcript" style="display: none"></div>
+      </div>
+     </div>
+    </div>
+    <div class="ft"><div class="c"></div></div>
+   </div>
+
+
+</body>
+</html>

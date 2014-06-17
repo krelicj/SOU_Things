@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<link rel="shortcut icon" href="Pictures/favicon.ico" type="image/x-icon">
+<link rel="icon" href="Pictures/favicon.ico" type="image/x-icon">		
+<script>
+<!--
+function land(ref, target)
+{
+lowtarget=target.toLowerCase();
+if (lowtarget=="_self") {window.location=loc;}
+else {if (lowtarget=="_top") {top.location=loc;}
+else {if (lowtarget=="_blank") {window.open(loc);}
+else {if (lowtarget=="_parent") {parent.location=loc;}
+else {parent.frames[target].location=loc;};
+}}}
+}
+function jump(menu)
+{
+ref=menu.choice.options[menu.choice.selectedIndex].value;
+splitc=ref.lastIndexOf("*");
+target="";
+if (splitc!=-1)
+{loc=ref.substring(0,splitc);
+target=ref.substring(splitc+1,1000);}
+else {loc=ref; target="_self";};
+if (ref != "") {land(loc,target);}
+}
+//-->
+</script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>CS 210</title>
+
+<link href="cs210.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body leftmargin="0" topmargin="0">
+<div class="header"><a href="#"><img src="Pictures/banner.png" alt="Insert Logo Here" name="Insert_logo" width="100%" height="110" border="0" usemap="#Insert_logoMap" id="Insert_logo" style="background: #8090AB; display:block;" />
+      <map name="Insert_logoMap" id="Insert_logoMap">
+        <area shape="rect" coords="4,6,878,107" href="index.htm" alt="Jared's Page" />
+      </map>
+  </a> 
+    <!-- end .header --></div>
+</p>
+<h3>This is the work associated with my Fall 2011 CS210 class.</h3>
+
+<tr valign="top">
+<td style="width:150px; text-align:top;">
+<h1><strong>CS 210</strong></h1>
+<p><a href="week 2/home.htm" target="_blank">Week 2</a></p>
+<p><a href="week 3/index.htm" target="_blank">Week 3</a></p>
+<p>Week 4</p>
+<dl>
+   <dd><form action="dummy" method="post">
+       <select name="choice" size="1">
+	   <option value="week 4/tutorial.04/tutorial/start.htm*_blank">Tutorial 1</option>
+	   <option value="week 4/tutorial.04/tutorial/samples.htm*_blank">Tutorial 2</option>
+	   <option value="week 4/tutorial.04/review/gallery.htm*_blank">Review</option>
+	   </select>
+	   <input TYPE="button" VALUE="GO!" onClick="jump(this.form)"></form>
+</dl>
+<p>Week 5</p>
+<dl>
+   <dd><form action="dummy" method="post">
+       <select name="choice" size="1">
+	   <option value="week 5/tutorial.05/tutorial/schedule.htm*_blank">Tutorial</option>
+	   <option value="week 5/tutorial.05/case1/sudoku.htm*_blank">Case 1</option>
+	   </select>
+	   <input TYPE="button" VALUE="GO!" onClick="jump(this.form)"></form>
+</dl>
+<p>Week 6</p>
+<dl>
+   <dd><form action="dummy" method="post">
+       <select name="choice" size="1">
+	   <option value="week 6/tutorial.06/tutorial/donations.htm*_blank">Tutorial</option>
+	   <option value="week 6/tutorial.06/case3/pizza.htm*_blank">Case 3</option>
+	   </select>
+	   <input TYPE="button" VALUE="GO!" onClick="jump(this.form)"></form>
+</dl>
+<p>Week 7 and 9</p>
+<dl>
+   <dd><form action="dummy" method="post">
+       <select name="choice" size="1">
+	   <option value="week 7/tutorial.07/tutorial/jumbo.htm*_blank">Tutorial 7</option>
+	   <option value="week 9/tutorial.09/tutorial/works.htm*_blank">Tutorial 9</option>
+	   </select>
+	   <input TYPE="button" VALUE="GO!" onClick="jump(this.form)"></form>
+</dl>
+<p><a href="week 10/tutorial.10/tutorial/mpl.htm" target="_blank">Week 10</a></p>
+<p><a href="week 11/tutorial.11/tutorial/clock.htm" target="_blank">Week 11</a></p>
+</body>
+</html>

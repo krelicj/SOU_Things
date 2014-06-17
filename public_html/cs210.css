@@ -1,0 +1,8 @@
+body,td,th {font-family: Tahoma, Geneva, sans-serif; color: #CCC;}
+body       {background-image: url(Pictures/ITCrowd06.jpg); background-repeat: repeat;
+	        background-size: 100% auto;}
+a:link     {color: #F00;}
+a:visited  {color: #3F3;}
+a:hover    {color: #FC0;}
+a:active   {color: #09F;}
+h1         {color: #F60;}

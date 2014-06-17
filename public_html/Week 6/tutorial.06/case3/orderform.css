@@ -1,0 +1,41 @@
+/*
+   New Perspectives on HTML and XHTML 5th Edition
+   Tutorial 6
+   Case Problem 3
+
+   Author: Jared Krelic
+   Date: November 2, 2011   
+
+   Order Form Style Sheet
+ 
+
+   Filename:         orderform.css
+   Supporting Files: 
+
+*/
+
+form                      {margin: 0px}
+
+#pizzaType, #extras       {margin-bottom: 10px: margin-top: 0px; margin-right: 0px; margin-left: 0px; background-color: ivory; border-style: inset; border-width: 5px; border-color: rgb(255, 192, 192)}
+
+legend                    {color: red; letter-spacing: 3px}
+
+label                     {display: Block; position: relative; width: 400px; margin-top: 5px; margin-bottom: 10px; margin-left: 0px; margin-right: opx}
+
+select                    {position: absolute; left: 250px; top: 0px; font-size: 12px}
+
+#qLabel                   {margin-top: 80px}
+
+input                     {margin-left: 250px}
+
+
+
+
+
+
+
+
+
+
+
+
